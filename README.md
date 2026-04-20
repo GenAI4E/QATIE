@@ -1,6 +1,19 @@
 # QATIE
 
-**[📝 Paper](#)** 
+Dat To-Thanh<sup>1,5</sup>, Nghia Nguyen-Trong<sup>2,5</sup>, Hoang Vo<sup>1,5</sup>, Hieu Bui-Minh<sup>3</sup>, Tinh-Anh Nguyen-Nhu<sup>4,5†</sup>
+
+<sup>1</sup> University of Science, VNU-HCM, Vietnam  
+<sup>2</sup> University of Information Technology, VNU-HCM, Vietnam  
+<sup>3</sup> Da Nang University of Economics, Vietnam  
+<sup>4</sup> Ho Chi Minh University of Technology, VNU-HCM, Vietnam  
+<sup>5</sup> Vietnam National University, Ho Chi Minh City, Vietnam  
+† Corresponding author
+
+<p align="left">
+  <a href="#"><img src="https://img.shields.io/badge/CVPRW-Paper-1f6feb?logo=ieee&logoColor=white" alt="CVPRW Paper"></a>
+  <a href="#"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white" alt="arXiv"></a>
+</p>
+
 This repository provides the official implementation of **Bridging the Training–Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement (QATIE)**. It features `Gated Encoding and Multi-Scale Refinement Network`, a lightweight architecture designed for image enhancement (IE), supported by Quantization-Aware Training (QAT) and an end-to-end export pipeline to TFLite. 
 
 
@@ -172,7 +185,11 @@ python src/infer/infer_tflite.py \
   --strategy auto
 ```
 
-# Citation
+## Citation
 ```
 
 ```
+
+## License
+
+This project is released under the MIT license. 
