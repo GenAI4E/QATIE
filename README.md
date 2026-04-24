@@ -14,13 +14,26 @@ Dat To-Thanh<sup>1,5</sup>, Nghia Nguyen-Trong<sup>2,5</sup>, Hoang Vo<sup>1,5</
   <a href="https://arxiv.org/abs/2604.21743"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white" alt="arXiv"></a>
 </p>
 
+
+
 This repository provides the official implementation of **Bridging the Training–Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement (QATIE)**. It features `Gated Encoding and Multi-Scale Refinement Network`, a lightweight architecture designed for image enhancement (IE), supported by Quantization-Aware Training (QAT) and an end-to-end export pipeline to TFLite. 
+
+
+<p align="center">
+  <img src="figs/qualitative_result.png" width="1000"> <br />
+  <em> Qualitative results on image 01 of the full-size test subset of iPhone in the DPED dataset. The comparison includes the input image, baseline, PPCN, and our models (direct 8-bit PTQ, 8-bit QAT, and FP32). </em>
+</p>
+<p align="center">
+  <img src="figs/model.png" width="1000"> <br />
+  <em> The proposed hybrid architecture for RGB image enhancement. The model features a three-scale hierarchical structure comprising Gated Encoder Blocks with multichannel skip connections, Multi-Scale Refinement modules applied at scales S/2, S/4, and S/8, and a Multi-branch Feature Fusion strategy in the decoder to aggregate multi-level semantic features for high-fidelity restoration. </em>
+</p>
 
 
 ## ✨ Highlights
 * **Hierarchical Gated Architecture**: hierarchical network architecture with gated encoder blocks and multiscale refinement to preserve fine-grained visual feature
 * **Quantization-Aware Training (QAT)**: simulate the effects of low-precision representation during the training process, which allows the network to adapt and prevents the typical drop in quality seen with standard post-training quantization (PTQ).
 * **Mobile-Ready Deployment Pipeline**: This framework supports a smooth export process to mobile inference frameworks like TensorFlow Lite, enabling both FP32 and highly optimized INT8 integer-only execution on standard commercial smartphones.
+
 ## 📰 News
 
 - **[24/04/2026]** The official training, evaluation, and export code is published.
