@@ -11,7 +11,7 @@ Dat To-Thanh<sup>1,5</sup>, Nghia Nguyen-Trong<sup>2,5</sup>, Hoang Vo<sup>1,5</
 
 <p align="left">
   <a href="#"><img src="https://img.shields.io/badge/CVPRW-Paper-1f6feb?logo=ieee&logoColor=white" alt="CVPRW Paper"></a>
-  <a href="#"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2604.21743"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white" alt="arXiv"></a>
 </p>
 
 This repository provides the official implementation of **Bridging the Training–Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement (QATIE)**. It features `Gated Encoding and Multi-Scale Refinement Network`, a lightweight architecture designed for image enhancement (IE), supported by Quantization-Aware Training (QAT) and an end-to-end export pipeline to TFLite. 
@@ -23,7 +23,7 @@ This repository provides the official implementation of **Bridging the Training�
 * **Mobile-Ready Deployment Pipeline**: This framework supports a smooth export process to mobile inference frameworks like TensorFlow Lite, enabling both FP32 and highly optimized INT8 integer-only execution on standard commercial smartphones.
 ## 📰 News
 
-- **[04/2026]** The official training, evaluation, and export code is published.
+- **[24/04/2026]** The official training, evaluation, and export code is published.
 - **[26/03/2026]** 🎉 Our paper has been accepted at CVPRW-2026 🎉
 
 ## 🗂️ Repository Structure
