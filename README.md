@@ -1,4 +1,4 @@
-# QATIE
+# QATIE (CVPRw 2026)
 
 Dat To-Thanh<sup>1,5</sup>, Nghia Nguyen-Trong<sup>2,5</sup>, Hoang Vo<sup>1,5</sup>, Hieu Bui-Minh<sup>3</sup>, Tinh-Anh Nguyen-Nhu<sup>4,5†</sup>
 
