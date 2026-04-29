@@ -36,7 +36,7 @@ This repository provides the official implementation of **Bridging the Training�
 
 ## 📰 News
 
-- **[24/04/2026]** The official training, evaluation, and export code is published.
+- **[24/04/2026]** The official training, evaluation, and export code is published. Official paper link will be available after CVPR 2026 concludes.
 - **[26/03/2026]** 🎉 Our paper has been accepted at CVPRW-2026 🎉
 
 ## 🗂️ Repository Structure
@@ -47,7 +47,6 @@ For a detailed guide to the modules under `src/`, see `src/README.md`.
 .
 ├── README.md
 ├── requirements.txt
-├── SKILL.md
 ├── ckpts/
 │   ├── model_with_qat_c32.ckpt                     # Pytorch Lightning checkpoint
 │   ├── model_with_qat_c32_int8_100x100.tflite      # TFLite checkpoint with 100x100 resolution
