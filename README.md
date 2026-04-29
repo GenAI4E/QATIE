@@ -200,7 +200,15 @@ python src/infer/infer_tflite.py \
 
 ## Citation
 ```
-
+@misc{tothanh2026bridgingtrainingdeploymentgapgated,
+      title={Bridging the Training-Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement}, 
+      author={Dat To-Thanh and Nghia Nguyen-Trong and Hoang Vo and Hieu Bui-Minh and Tinh-Anh Nguyen-Nhu},
+      year={2026},
+      eprint={2604.21743},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2604.21743}, 
+}
 ```
 
 ## License
